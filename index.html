@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Default language is English -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Room homepage</title>
+</head>
+<body>
+  <!-- header -->
+  <header class="hero-header">
+    <!-- nav header & logo -->
+      <nav class="hero-nav">
+          <img class="logo" src="images/logo.svg" alt="logo">
+
+        <div class="nav-container">
+            <img class="open-btn" src="images/icon-hamburger.svg" alt="icon-hamburger">
+
+          <div class="nav-center">
+            <img class="close-btn" src="images/icon-close.svg" alt="icon-close">
+            <ul class="nav-list">
+              <li class="nav-items active">
+                <a href="#">Home</a>
+              </li>
+              <li class="nav-items">
+                <a href="#">Shop</a>
+              </li>
+              <li class="nav-items">
+                <a href="#">About</a>
+              </li>
+              <li class="nav-items">
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
+      <article class="hero-article">
+        <div class="hero-div">
+            <article class="hero-img-one">
+              <picture>
+                <source id="item-img-d" class="desktop-image-hero-one" media="(min-width: 769px)" srcset="images/desktop-image-hero-1.jpg">
+                <img id="item-img-m" src="" alt="mobile-image-hero-1">
+              </picture>
+
+              <div class="hero-controls">
+                  <img class="hero-controls-btn" id="prev" src="images/icon-angle-left.svg" alt="icon-angle-left">
+                  <img class="hero-controls-btn" id="next" src="images/icon-angle-right.svg" alt="icon-angle-right">
+              </div>
+            </article>
+
+          <div class="slide-text-one">
+            <h1 id="title"></h1>
+            <p id="info"></p>
+            <button type="button" class="btn shop-now-btn">
+              <a href="#">Shop now
+                <span>
+                  <img src="images/icon-arrow.svg" alt="icon-arrow">
+                </span>
+              </a>
+            </button>
+          </div>
+        </div>
+      </article>
+  </header>
+
+  <!-- About Section -->
+  <!-- <main class="about-container"> -->
+    <section class="about-center">
+      <div class="about__bg image-dark">
+        <img src="images/image-about-dark.jpg" alt="image-about-dark">
+        <div class="about__bg__1"></div>
+      </div>
+      <div class="about-furniture">
+        <h2>About our furniture</h2>
+        <p>Our multifunctional collection blends design and function to suit your individual taste.
+          Make each room unique, or pick a cohesive theme that best express your interests and what
+          inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+          or anything in between. Product specialists are available to help you create your dream space.</p>
+      </div>
+      <div class="about__bg image-light">
+        <img src="images/image-about-light.jpg" alt="image-about-light">
+        <div class="about__bg__2"></div>
+      </div>
+    </section>
+  <!-- </main> -->
+  <script src="app.js"></script>
+</body>
+</html>
