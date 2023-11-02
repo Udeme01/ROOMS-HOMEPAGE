@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/ecommerce-rooms-homepage-using-flexbox-and-grid-cHWanHYr3W)
-- Live Site URL: [Add live site URL here](https://rooms-homepage-ecom.netlify.app)
+- Solution URL: [https://www.frontendmentor.io/solutions/ecommerce-rooms-homepage-using-flexbox-and-grid-cHWanHYr3W]
+- Live Site URL: [https://rooms-homepage-ecom.netlify.app]
 
 ## My process
 I started by checking out the designs provided then I got a picture of how I would want the HTML Markup to be like. I then started out by writing out my HTML, then CSS styles and finally JavaScript.
